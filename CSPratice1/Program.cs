@@ -124,6 +124,12 @@ namespace CSPratice1
 
             //#2 삼항 연산자
             Console.WriteLine(number % 2 == 0 ? true : false);
+
+
+            //#3 반복문과 배열
+            int[] intArray = new int[100];
+            Console.WriteLine(intArray[99]);
+
         }
     }
 }
