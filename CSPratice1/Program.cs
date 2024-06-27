@@ -46,7 +46,7 @@ namespace CSPratice1
 
             //문자열 연결 연산자(Concatenation Operator)
             Console.WriteLine("Hello" + " " + "World");
-            
+
             // 문자열 인덱스 접근 [ ]
             Console.WriteLine("Hello World"[4]);    // "0" 출력
             //Console.WriteLine("Hello World"[100]);  // 예외 발생
@@ -94,6 +94,21 @@ namespace CSPratice1
 
             //#1 자료형 형변환
             // 굉장히 중요
+
+            //#2 if 조건문
+            bool condition = true;
+            if (condition)
+            {
+                // some
+            } else if (condition)
+            {
+                //some2
+            }
+            else
+            {
+                //other
+            }
+
 
         }
     }
