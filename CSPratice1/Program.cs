@@ -10,6 +10,18 @@ namespace CSPratice1
     {
         static void Main(string[] args)
         {
+            // #1 C# 기본
+            //int base = 0;
+            var abc = 3;
+            // var var = 3;
+
+            //한줄 주석
+            /*
+             * 여러줄 주석
+             * 
+             */
+
+            /*** XML 주석 ***/
         }
     }
 }
