@@ -83,6 +83,10 @@ namespace CSPratice1
             Console.WriteLine(++number); //12
             Console.WriteLine(number--); //12
             Console.WriteLine(--number); //10
+
+            //#1 var 키워드
+            var varunber = 20;
+            // var abc;    // X반드시 초기화 해줘야 함
         }
     }
 }
