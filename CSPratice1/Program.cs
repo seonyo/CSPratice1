@@ -70,7 +70,12 @@ namespace CSPratice1
             Console.WriteLine(true || false);
 
             //#1 변수
-            string s = "문자열 자료형"
+            string s = "문자열 자료형";
+
+            //#1 복합대입연산자
+            string output = "Hello";
+            output += "World";
+            Console.WriteLine(output);
         }
     }
 }
