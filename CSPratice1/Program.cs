@@ -87,6 +87,10 @@ namespace CSPratice1
             //#1 var 키워드
             var varunber = 20;
             // var abc;    // X반드시 초기화 해줘야 함
+
+            //#1 입력
+            string input = Console.ReadLine(); ;
+            Console.WriteLine(input);
         }
     }
 }
