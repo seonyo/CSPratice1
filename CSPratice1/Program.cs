@@ -68,6 +68,9 @@ namespace CSPratice1
             Console.WriteLine(!true);
             Console.WriteLine(true && false);
             Console.WriteLine(true || false);
+
+            //#1 변수
+            string s = "문자열 자료형"
         }
     }
 }
