@@ -175,6 +175,20 @@ namespace CSPratice1
             Console.WriteLine(Math.PI); //3.141592~
 
             //#4 클래스 생성
+
+            //#4 인스턴스 변수
+            User user1 = new User();
+            user1.name = "이미림";
+            user1.phoneNumber = "010-1234-5678";
+
+            Product p1 = new Product();
+            p1.name = "어른폰";
+            p1.price = 99999999;
+
+            Product p2 = new Product()
+            {
+                price = 3000, name = "감자폰"  // 속성의 순서는 상관 없음
+            };
         }
     }
 }
