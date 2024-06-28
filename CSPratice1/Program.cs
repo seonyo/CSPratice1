@@ -140,7 +140,12 @@ namespace CSPratice1
                 i++;
             }
 
-
+            //#3 foreach 반복문
+            string[] foreachArray = { "사과", "배", "포도" };
+            foreach (var item in foreachArray)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
