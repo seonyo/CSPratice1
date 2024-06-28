@@ -122,9 +122,9 @@ namespace CSPratice1
             int v = 0;
 
             //#2 switch 조건문
-            switch(v)
+            switch (v)
             {
-                case 0: 
+                case 0:
                     //
                     break;
                 default:
@@ -144,7 +144,7 @@ namespace CSPratice1
             //#3 while 반복문
             int i = 0;
             int[] intArray2 = { 52, 273, 32 };
-            while(i < intArray2.Length)
+            while (i < intArray2.Length)
             {
                 Console.WriteLine(intArray2[i]);
                 i++;
@@ -189,6 +189,17 @@ namespace CSPratice1
             {
                 price = 3000, name = "감자폰"  // 속성의 순서는 상관 없음
             };
+
+            Product p3 = new Product()
+            {
+                name = "공짜폰"
+            };
+
+            //#4 클래스 변수
+            Console.WriteLine(Product.taxratio);
+            // Console.WriteLine(p1.taxratio);      // JAVA는 가능하나 C#은 X
+
+
         }
     }
 }
