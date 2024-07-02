@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="animal.cs" />
+    <Compile Include="cat.cs" />
+    <Compile Include="Dog.cs" />
     <Compile Include="SecondClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
