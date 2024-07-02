@@ -45,7 +45,9 @@
   <ItemGroup>
     <Compile Include="animal.cs" />
     <Compile Include="cat.cs" />
+    <Compile Include="Child.cs" />
     <Compile Include="Dog.cs" />
+    <Compile Include="Parent.cs" />
     <Compile Include="SecondClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
